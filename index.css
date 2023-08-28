@@ -104,10 +104,20 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
-  background-color: #0000F5;
+  /* background-color: #0000F5; */
+  height: 100px;
 }
 .home-hamburger:hover {
   opacity: .5;
+}
+.home-page-title {
+  color: white;
+  font-size: 32px;
+  user-select: none;
+  padding-top: 45px;
+}
+.home-page-title:hover {
+  cursor: pointer;
 }
 .home-icon {
   width: 60px;
@@ -230,7 +240,7 @@
 .home-heading {
   color: rgb(255, 255, 255);
   font-size: 100px;
-  max-width: 790px;
+  max-width: 1000px;
   font-style: normal;
   font-weight: 500;
 }
@@ -3029,6 +3039,7 @@
 @media(max-width: 767px) {
   .home-burger-menu {
     display: flex;
+    height: 40px;
   }
   .home-heading {
     font-size: 60px;
@@ -3657,6 +3668,8 @@
   }
   .home-button {
     text-align: center;
+    background-color: black !important;
+    
   }
   .home-heading01 {
     font-size: 36px;
